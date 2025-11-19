@@ -1,0 +1,17 @@
+[
+  {"id": "ISSUE-001","title": "Payment failed with error 500","category": "Payment","symptoms": ["payment failed", "error 500", "checkout", "transaction error"],"recommended_action": "Escalate to Payments Team."},
+  {"id": "ISSUE-002","title": "Login not working","category": "Login","symptoms": ["login", "cannot login", "authentication error", "invalid credentials"],"recommended_action": "Ask user to reset password."},
+  {"id": "ISSUE-003","title": "OTP not received","category": "Login","symptoms": ["otp", "verification code", "login failed"],"recommended_action": "Resend OTP or ask user to check spam folder."},
+  {"id": "ISSUE-004","title": "Mobile app slow or crashing","category": "Performance","symptoms": ["app slow", "app crashing", "lag", "freeze"],"recommended_action": "Ask user to update app; escalate to mobile team if persists."},
+  {"id": "ISSUE-005","title": "Website not loading","category": "Performance","symptoms": ["website down", "cannot load page", "timeout", "server error"],"recommended_action": "Check server logs; escalate to backend team."},
+  {"id": "ISSUE-006","title": "Cannot reset password","category": "Account","symptoms": ["reset password", "forgot password", "password link invalid"],"recommended_action": "Send new password reset link."},
+  {"id": "ISSUE-007","title": "Billing mismatch","category": "Billing","symptoms": ["billing", "invoice error", "amount mismatch", "overcharged"],"recommended_action": "Review billing; contact finance team."},
+  {"id": "ISSUE-008","title": "Refund delay","category": "Billing","symptoms": ["refund", "payment not received", "delay", "reversal"],"recommended_action": "Check payment logs; escalate to finance team."},
+  {"id": "ISSUE-009","title": "Order tracking issue","category": "Order","symptoms": ["tracking", "order status", "shipment", "delivery"],"recommended_action": "Ask courier service or escalate to operations."},
+  {"id": "ISSUE-010","title": "Profile update failed","category": "Account","symptoms": ["update profile", "change details", "save error"],"recommended_action": "Ask user to retry; escalate to backend team if persists."},
+  {"id": "ISSUE-011","title": "Notification missing","category": "App","symptoms": ["notification", "push alert missing", "email not received"],"recommended_action": "Check notification system; escalate to dev team if needed."},
+  {"id": "ISSUE-012","title": "Subscription auto-renew issue","category": "Billing","symptoms": ["subscription", "auto-renew", "payment error"],"recommended_action": "Check subscription logs; contact finance team."},
+  {"id": "ISSUE-013","title": "Dashboard loading slowly","category": "Performance","symptoms": ["dashboard", "slow loading", "delay", "lag"],"recommended_action": "Check server performance; escalate to backend team."},
+  {"id": "ISSUE-014","title": "File upload error","category": "App","symptoms": ["upload", "file error", "cannot upload", "failure"],"recommended_action": "Ask user to retry; escalate to backend team if persists."},
+  {"id": "ISSUE-015","title": "Email verification failure","category": "Account","symptoms": ["email verification", "cannot verify", "link invalid"],"recommended_action": "Resend verification email or ask user to check spam folder."}
+]
