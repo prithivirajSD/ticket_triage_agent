@@ -6,7 +6,7 @@ from firebase_config import firebase_analytics_snippet
 # -----------------------
 # Configuration
 # -----------------------
-API_BASE = os.getenv("TRIAGE_API_BASE", "http://localhost:8000")
+API_BASE = os.getenv("TRIAGE_API_BASE", "https://ticket-triage-agent-3.onrender.com")
 
 # -----------------------
 # Helper functions
