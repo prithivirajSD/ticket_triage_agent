@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8501
 
 # Render sets $PORT automatically, so use it.
-CMD streamlit run streamlit_app/ui.py --server.port $PORT --server.address 0.0.0.0
+CMD streamlit run ui.py --server.port $PORT --server.address 0.0.0.0
